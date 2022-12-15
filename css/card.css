@@ -72,12 +72,16 @@ h1 {
   padding: 1em 2em;
   background: #eee;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 .flip > .front p,
 .flip > .back p {
   font-size: 0.9125rem;
   line-height: 160%;
-  color: #999;
+  color: #333;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 .front {
@@ -91,7 +95,7 @@ h1 {
   height: 100%;
   z-index: -5;
   background: url("../img/UHC logo.png") #F6F6F6 !important;
-  background-size: 50% !important;
+  background-size: 30% !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
